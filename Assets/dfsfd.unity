@@ -295,6 +295,88 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &172106939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 172106940}
+  - component: {fileID: 172106942}
+  - component: {fileID: 172106941}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &172106940
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172106939}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 900432694}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.00046206, y: 8.4799}
+  m_SizeDelta: {x: 272.28, y: 88.0403}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &172106941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172106939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'How To Play:
+
+    press space if the BACKGROUND COLOUR matches the WORD.
+    If you do well enough the word colour will begin changing. '
+--- !u!222 &172106942
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172106939}
+  m_CullTransparentMesh: 1
 --- !u!1 &181252618
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,7 +766,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &420976727
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1132,12 +1214,13 @@ RectTransform:
   - {fileID: 509010827}
   - {fileID: 349044310}
   - {fileID: 1798324774}
+  - {fileID: 172106940}
   m_Father: {fileID: 1519963870}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -485.39, y: -203.5062}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &900432695
@@ -1195,7 +1278,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1138642114
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1645,7 +1728,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1442338489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1827,7 +1910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1595480921
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1849,7 +1932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -527.7193, y: -156.427}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1595480922
@@ -1907,7 +1990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1758786580
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2436,22 +2519,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f12e143cd9509f044b27d0cc54944f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colourWord: {fileID: 412698981}
-  colourNames: []
-  score: 0
   colours: []
-  timerBar: {fileID: 1442338489}
-  frameText: {fileID: 814266861}
-  Score: {fileID: 2097662685}
+  colourNames: []
+  colourWord: {fileID: 412698981}
   Menu: {fileID: 900432693}
   GameOverPanel: {fileID: 1595480920}
-  colourDisplay: {fileID: 1994820702}
   colourNamePanel: {fileID: 420976726}
   inGameColourText: {fileID: 412698981}
   OnScreenScore: {fileID: 1138642113}
   OnScreenFrames: {fileID: 1758786579}
   onScreenScoreText: {fileID: 1144040148}
   onScreenFrameText: {fileID: 91288666}
+  timerBar: {fileID: 1442338489}
+  frameText: {fileID: 814266861}
+  Score: {fileID: 2097662685}
+  colourDisplay: {fileID: 1994820702}
 --- !u!4 &2045015466
 Transform:
   m_ObjectHideFlags: 0
